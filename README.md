@@ -4,7 +4,7 @@
 Acessa uma base de dados MySQL usando o Cypress
 ## Conteúdo:
 ## SELECT
-Faz um <strong>SELECT</strong> na tabela Employee e usando a condição <strong> WHERE </strong> seleciona os funcionários que nasceram em/ou depois de 1970.
+Faz um <strong>SELECT</strong> na tabela Employee e usando a condição <strong> WHERE </strong> seleciona os funcionários que nasceram em 1970 ou depois.
 
 ### Tecnologias
 - JavaScript
@@ -26,7 +26,7 @@ Você ira precisar ter em sua máquina as seguintes ferramentas:
 'cd cypress sqlite/cypress/integration'
 - Instale as dependências: <br>
 'npm install cypress' <br>
-'npm install mysql2'
+'npm install sqlite3'
 - Abra o Cypress:
 'npx cypress open'
 - Execute o arquivo 'mysql.spec.js'
